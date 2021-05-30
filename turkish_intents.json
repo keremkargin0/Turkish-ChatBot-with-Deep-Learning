@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Merhaba", "Hey", "Orada kimse var mı?", "Selam", "Selamlar","Bir şey sorabilir miyim?", "Naber?", "Ne haber?"],
+     "responses": ["Merhaba", "Hoş geldiniz!", "Merhaba! Sizi dinliyorum.", "Selam", "Merhaba! Nasıl yardımcı olabilirim?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["İyi günler!", "İyi akşamlar!", "İyi geceler!", "Güle güle!", "Görüşmek üzere!", "Kendinize iyi bakın!", "Sonra görüşürüz!"],
+     "responses": ["Görüşmek üzere, iyi günler!", "Mutlu günler!", "Güle güle, yine bekleriz!", "İyi günler, bizi tercih ettiğiniz için teşekkür ederiz"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Teşekkürler", "Teşekkür ederim.", "Yardımlarınız için teşekkürler.", "Sağ olun", "İşime yarayan bir bilgiydi teşekkürler."],
+     "responses": ["Yardımcı olabildiğimize sevindik!", "Sizin için buradayız!", "Sizinle ilgilenmek bizim için bir zevkti!", "Rica ederiz!"]
+    },
+    {"tag": "about",
+     "patterns": ["Kimsiniz?", "Sen kimsin?","Kendini tanıtabilir misin?", "Kendinden bahseder misin?"],
+     "responses": ["Ben Kerem! Size yarcımcı olabilmek için buradayım!", "Ben Kerem! Yapay zeka ile yaratılmış bir sohbet botuyum."]
+    },
+    {"tag": "name",
+    "patterns": ["Adınız nedir?", "Size nasıl hitap edebilirim?", "İsminiz nedir?", "Senin adın ne?","İsmin ne?","Kiminle görüşüyorum?"],
+    "responses": ["Bana Kerem diyebilirsiniz.", "Ben Kerem!", "Bana kısaca Kerem diyebilirsiniz."]
+    },
+    {"tag": "help",
+    "patterns": ["Bana yardımcı olabilir misin?", "Yardıma ihtiyacım var.", "Yardım edebilir misiniz?", "Benim için ne yapabilirsin?", "Desteğe ihtiyacım var.", "Bana destek olur musunuz lütfen."],
+    "responses": ["Buyrun size nasıl yardımcı olabilirim.", "Probleminiz nedir? Detaylı bir bilgi verebilirseniz size yardımcı olabilirim.", "Evet, tabii ki! Size nasıl destek olabilirim."]
+    },
+    {"tag": "createaccount",
+    "patterns": ["Yeni bir hesap oluşturmaya ihtiyacım var.", "Nasıl yeni bir hesap oluşturabilirim.", "Yeni bir hesap oluşturmak istiyorum.", "Benim için yeni bir hesap oluşturabilir misin?", "Yeni bir hesap nasıl açılır?", "Bir hesap açmak istiyorum.", "Yeni bir hesap açmak istiyorum."],
+    "responses": ["Eğer yeni bir hesap oluşturmak istiyorsanız web sitemizi ziyaret ederek sağ üst kısımda yer alan 'Kayıt Ol' butonuna tıklayarak hesap oluşturabilirsiniz.", "Web sitemizi ziyaret ederek yönergeler kısmında yer alan nasıl hesap oluşturabilirim blog yazımızı okuyarak kolay bir şekilde hesap oluşturabilirsiniz."]
+    },
+    {"tag": "complaint",
+    "patterns": ["Bir şikayetim var.", "Bir şikayetimi size bildirmek istiyorum.", "Hizmetiniz hakkında bir şikayetim var."],
+    "responses": ["Size destek sağlayabilmemiz için lütfen şikayetinizi detaylı olarak anlatabilir misiniz?", "Lütfen şikayetinizi bildirin. Verdiğimiz rahatsızlık için özür dileriz. En kısa zamanda probleminizi çözeceğiz."]
+    }
+]
+}
