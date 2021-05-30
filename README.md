@@ -18,3 +18,11 @@ Hello everyone! In this repository, there is a Turkish Chatbot project trained w
 ## Integration with Chat Applications
 
 COMING SOON!!!
+
+
+## Resources
+
+I used the following resources while developing Chat Bot. Thank you to the owners of these resources.
+
+1. https://towardsdatascience.com/how-to-build-your-own-chatbot-using-deep-learning-bb41f970e281
+2. https://shanebarker.com/blog/deep-learning-chatbot/
